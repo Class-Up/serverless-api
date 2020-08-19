@@ -1,3 +1,3 @@
-module.exports = (request, response) {
-  response.send('Hello Query ${request.query}')
+module.exports = (request, response) => {
+  response.send(`Hello Query ${request.query}`)
 }
