@@ -1,0 +1,7 @@
+# Files
+.env
+
+# Dirs
+.vscode/
+node_modules/
+playground/

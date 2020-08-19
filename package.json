@@ -1,0 +1,45 @@
+{
+  "name": "serverless-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Class-Up/serverless-api.git"
+  },
+  "author": "RurickDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Class-Up/serverless-api/issues"
+  },
+  "homepage": "https://github.com/Class-Up/serverless-api#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo '- Running standard -' && standard --fix"
+    }
+  },
+  "standard": {
+    "ignore": [
+      "playground/"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^3.0.5",
+    "nodemon": "^1.19.2",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.3"
+  }
+}
